@@ -1,0 +1,111 @@
+/* configurações do html  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, #161623,aqua,#161623);
+}
+
+/* Card Login */
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: #161623;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8) ;
+    backdrop-filter: blur(20px);
+    color: white;
+}
+.container .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-text i{
+    font-size: 16px;
+    position: absolute;
+    margin-top: 7px;
+    left: -20px;
+    color: white;
+}
+
+.container form input{
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.container .input-text{
+    margin-top: 10px;
+}
+
+.container .input-submit {
+    margin-top: 10px;
+}
+
+.container .input-submit input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.container .redes-sociais {
+    width: 100%;
+    height: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 23px;
+}
+
+.container .redes-sociais i:hover{
+    cursor: pointer;
+}
+
+.container .input-submit input:hover{
+    cursor: pointer;
+}
+
+.container .separar{
+   width: 100%;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.container .separar p{
+    margin-bottom: 6px;
+    margin: 10px;
+}
+
+.container .divisao{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}

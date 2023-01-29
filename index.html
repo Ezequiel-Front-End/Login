@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+</head>
+<body>
+
+    <!-- Card login -->
+    <div class="container">
+        <div class="titulo">
+            <h1>Login</h1>
+        </div>
+        <form action="">
+            <div class="input-text">
+                <i class="fa-solid fa-user"></i>
+                <input type="email" placeholder="E-mail" required>
+            </div>
+            <div class="input-text">
+                <i class="fa-solid fa-lock" id="user-icone"></i>
+                <input type="password" placeholder="Senha" required>
+            </div>
+            <div class="input-submit">
+                <input type="submit" value="Entrar">
+            </div>
+            <div class="separar">
+                <div class="divisao"></div>
+                <p>ou</p>
+                <div class="divisao"></div>
+            </div>
+            
+            <div class="redes-sociais">
+                <i class="fa-brands fa-facebook" id="faceboock" onclick="Navegar()"></i>
+                <i class="fa-brands fa-instagram" id="instragram" onclick="Navegar_One()"></i>
+                <i class="fa-solid fa-envelope" id="envelope" onclick="Navegar_Two()"></i>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
